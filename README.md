@@ -19,7 +19,7 @@
 ###### 3) Had an issue setting up the classes and figureing out diffrent subclasses and abstractions. 
 
 ## Instructions to run code
-###### 1) Download the code or copy the workspace using " git clone https://github.com/br-schneider/project_1.git " in your comand line/ terminal 
+###### 1) Download the code or copy the workspace using " git clone https://github.com/dtsing89/project_1 " in your comand line/ terminal 
 ###### 2) Open Zoo.java and click run
 ###### 3) Where it askes for days put in desired days.
 ###### 4) See that we finished the project with minimal tears. 
