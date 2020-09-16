@@ -5,7 +5,7 @@
 ###### 1) The way each animal eats can be diffrent but we did not need to make seperate instances. 
 ###### 2) That being said theres a list of activitys all animals do: Wake up, make noise, sleep. 
 ###### 3) We can make the lowest subclass abstract. 
-###### 4) We run all the string outputs into a txt file to submite. 
+###### 4) We run all the string outputs into a txt file to submit. 
 ###### 5) When doing the probability we can assume the felines will only do one action when asked to sleep. 
 ###### 6) There are subclass of a subclass (inheratence)
 ###### 7) For the random function we used https://www.geeksforgeeks.org/generating-random-numbers-in-java/ for the needed inport and for lines 34 and 35 in the zookeeper class. 
