@@ -1,5 +1,7 @@
 package test1;
 
+//Use of object identity
+//Use of abstract class as well
 public abstract class ZooEmployee {
 	String name;
 	String type;

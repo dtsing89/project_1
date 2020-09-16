@@ -8,25 +8,12 @@ import java.io.IOException;
 public class Zoo {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-//		Cat cat = new Cat("Charlie");
-//		OutputStream f = new FileOutputStream("C:/");
-		FileWriter writer = new FileWriter("x.txt");
-//		writer.write("test");
-//		writer.write("test2");
-		
-		
-		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the amount of days");
 		String dayString = input.nextLine();
 		int days = Integer.parseInt(dayString);
 
 		ZooKeeper zookeeper = new ZooKeeper("David");
-//		zookeeper.wakeAnimal(cat);
-//		
-//		Tiger tiger = new Tiger("Tom");
-//		zookeeper.wakeAnimal(tiger);
 
 		Cat cat = new Cat("Charlie");
 		Tiger tiger = new Tiger("Tom");
@@ -41,6 +28,8 @@ public class Zoo {
 			System.out.println("Zookeeper arrives at Zoo on Day " + days);
 			int random = zookeeper.rand();
 
+			zookeeper.arrive(i+1);
+			
 			zookeeper.wakeAnimal(cat);
 			zookeeper.wakeAnimal(tiger);
 			zookeeper.wakeAnimal(dog);
@@ -121,11 +110,10 @@ public class Zoo {
 			zookeeper.sleepAnimal(snake);
 			zookeeper.sleepAnimal(hippo);
 			zookeeper.sleepAnimal(rhino);
+			zookeeper.leave(i+1);
 
 		}
-		
-		writer.write("Zookeeper leaves at Zoo on Day " + days);
-		writer.close();
+
 	}
 	
 }

@@ -1,5 +1,6 @@
 package test1;
 
+
 public abstract class Feline extends Animal
 {
     public Feline(String name, String type)

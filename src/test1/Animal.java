@@ -5,6 +5,7 @@ public class Animal
     String name;
     String type;
 
+    //Use of encapsulation
     public Animal(String name, String type)
     {
         this.name = name;
